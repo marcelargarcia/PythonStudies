@@ -5,3 +5,4 @@ class MediaGeometrica(Media):
         from math import prod
         return prod(self.numeros) ** (1/len(self.numeros))
 
+#testeee
