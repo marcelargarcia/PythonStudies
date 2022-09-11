@@ -15,7 +15,7 @@ class Character:
         self.mapMoves["JumpingD"] = "Diving"
         self.mapMoves["DuckingU"] = "Standing"
 
-
+#from Character import *
 class Heroine(Character): #Herança
     def __init__(self, name, heroesGroup):
         super(Heroine, self).__init__(name)
@@ -26,10 +26,9 @@ class Heroine(Character): #Herança
         super(Heroine, self).mapMoves()
         self.mapMoves["StandingU"] = "Fly"
         self.mapMoves["FlyD"] = "Standing"
-
     pass
 
-
+#from Character import *
 class Villain(Character): #Herança
     def __init__(self, name):
         super(Villain, self).__init__(name)
@@ -38,7 +37,6 @@ class Villain(Character): #Herança
     def mapMoves(self): #Polimorfismo
         super(Villain, self).mapMoves()
         self.mapMoves["StandingDD"] = "BackFlip"
-
     pass
 
 
