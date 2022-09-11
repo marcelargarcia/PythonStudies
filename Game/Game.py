@@ -13,3 +13,8 @@ print(heroine.move("Standing", "U"))
 print(villain.move("Standing", "U"))
 print(heroine.mapMoves)
 print(villain.mapMoves)
+
+# Test
+# c = Character('Teste')
+# print(c.move("Standing", "B"))
+# print(c.mapMoves)
