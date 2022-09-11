@@ -1,4 +1,5 @@
 from Media import *
+
 class MediaGeometrica(Media):
     def calcula(self):
         from math import prod

@@ -46,3 +46,16 @@ class Pessoa:
 
     def get_ano_nasci(self):
         return self.ano_atual - self.idade
+
+if __name__ == '__main__':
+    p1 = Pessoa('Marcela', 26, 'programadora')
+    p1.comer('banana')
+    p1.comer('banana')
+    p1.parar_comer()
+    p1.parar_comer()
+    p1.comer('banana')
+    p1.falar('POO')
+    p1.parar_comer()
+    p1.falar('POO')
+    p1.parar_falar()
+    print(p1.get_ano_nasci())
